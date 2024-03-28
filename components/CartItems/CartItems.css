@@ -1,0 +1,113 @@
+.cartitems{
+    margin : 100px 200px;
+}
+.cartitems hr {
+    height : 3px;
+    background: #e2e2e2;
+    border : 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:75px;
+    padding : 20px 0px;
+    color : #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+}
+.carticon-product-icon{
+    height : 62px;
+}
+.cartitems-remove-icon{
+    width:15px;
+    margin : 0px 40px;
+    cursor: pointer;
+}
+.cartitems-quantity{
+    width : 64px;
+    height : 50px;
+    border : 2px solid #ebebeb;
+    background: white;
+}
+
+/* Second half part after line no. 35 ======================================== */
+
+.cartitems-down{
+    display: flex;
+    margin : 80px 80px;
+}
+.cartitems-total{
+    border : 2px solid  rgb(215, 212, 212);
+    border-radius: 15px;
+    text-align: center;
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap : 40px;
+    padding : 20px;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding : 15px 0px;
+}
+.cartitems-total button{
+    width : 262px;
+    height : 58px;
+    outline: none;
+    border : none;
+    background: #ff5a5a;
+    color : white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cartitems-total button:hover{
+    background: #dc3838;
+}
+ .cartitems-promocode{
+    border: 2px solid rgb(215, 212, 212);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 30px 20px;
+    padding : 45px 30px;
+}
+.cartitems-promocode p{
+    color : #555; 
+    margin : 20px auto; 
+}
+
+.cartitems-promocode input{
+    border: none;
+    outline:none;
+    background: rgb(236, 234, 234);
+    border-radius: 10px;
+    padding : 10px;
+    font-size: 20px;
+    width : 330px;
+    height : 50px;
+}
+.cartitems-promocode button{
+    width : 170px;
+    height : 35px;
+    margin : 10px 20%;
+    background-color: black;
+    color : white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cartitems-promocode button:hover{
+    background: rgb(57, 56, 56);
+}
